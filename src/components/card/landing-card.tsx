@@ -17,7 +17,7 @@ export default function LandingDescription() {
       <div className="absolute inset-0 flex items-center justify-center bg-opacity-50">
         {" "}
         {/* Overlay div for text */}
-        <div className="flex flex-col ">
+        <div className="flex flex-col "> 
           <h1 className="text-white 2xl:text-9xl lg:text-8xl md:text-7xl sm:text-7xl text-6xl text-shadow-lg font-bold fold text-center">
             Referral World
           </h1>

@@ -1,6 +1,8 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 import { motion } from "motion/react";
+import { accessedDynamicData } from "next/dist/server/app-render/dynamic-rendering";
+import { Asap_Condensed } from "next/font/google";
 
 export const BackgroundGradient = ({
   children,
@@ -35,6 +37,8 @@ export const BackgroundGradient = ({
                 repeatType: "reverse",
               }
             : undefined
+
+         
         }
         style={{
           backgroundSize: animate ? "400% 400%" : undefined,
