@@ -1,13 +1,12 @@
+import { DottedBG } from "@/components/card/dotted-bg";
 import { BackgroundGradientDemo } from "@/components/card/gradient-card";
 import LandingDescription from "@/components/card/landing-card";
-import { NavigationMenu } from "@/components/navigation/nav-bar";
 import { ModeToggle } from "@/components/theme/mode-toggle";
 import { GlobeDemo } from "@/components/ui/global-demo";
 
 export default function Home() {
   return (
     <div className="">
-      <NavigationMenu />
       <div>
         <LandingDescription />
       </div>
@@ -35,7 +34,25 @@ export default function Home() {
       </div>
 
       <GlobeDemo />
-      <ModeToggle />
+
+      <div className="flex md:flex-row justify-center gap-48 sm:flex-col">
+        <div>
+          <DottedBG />
+        </div>
+        <div>Referral World</div>
+      </div>
+      <div className="flex md:flex-row justify-center mt-12 gap-48 sm:flex-col">
+        <div>Referral World</div>
+        <div>
+          <DottedBG />
+        </div>
+      </div>
+      <div className="flex md:flex-row justify-center mt-12 gap-48 sm:flex-col">
+        <div>
+          <DottedBG />
+        </div>
+        <div>Referral World</div>
+      </div>
     </div>
   );
 }
