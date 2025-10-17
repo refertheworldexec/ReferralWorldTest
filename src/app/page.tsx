@@ -13,7 +13,7 @@ export default function Home() {
       <div>
         <NavigationMenu />
       </div>
-      <div className="grid md:h-screen   md:grid-cols-2 grid-cols-1 bg-gradient-to-br from-green-500 via-green-50 to-white">
+      <div className="grid md:h-screen   md:grid-cols-2 grid-cols-1 bg-gradient-to-tl from-green-800 via-white to-white">
         <div>
           <LandingDescription />
         </div>
@@ -52,6 +52,7 @@ export default function Home() {
             message="Set your referral rates, attract quality customers, and control exactly what you pay to grow your business through trusted connections"
             buttonText="Grow Business"
           />
+          f{" "}
         </div>
         <div className="md:p-12 p-6">
           <BackgroundGradientDemo

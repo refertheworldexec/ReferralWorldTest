@@ -28,7 +28,7 @@ export default function LandingDescription() {
           <div className="flex     2xl:text-2xl lg:text-xl md:text-lg sm:text-md   mt-12 justify-center flex-row md:gap-12 gap-2 ">
             <Button
               size={"lg"}
-              className="bg-green-700 hover:bg-green-700 lg:p-8 md:p-4 md:text-md hover:cursor-pointer lg:text-4xl md:text-2xl sm:text-md "
+              className="bg-green-700 text-white hover:bg-green-700 lg:p-8 md:p-4 md:text-md hover:cursor-pointer lg:text-4xl md:text-2xl sm:text-md "
             >
               Chat with us
             </Button>
